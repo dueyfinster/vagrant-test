@@ -1,3 +1,4 @@
 #!/bin/bash
+export DEBIAN_FRONTEND=noninteractive
 
-sudo apt-get install nginx
+sudo apt-get -y install nginx
